@@ -4,3 +4,5 @@ services:
       image: node:6.3
     mysql:
       image: mysql:5.7
+      enviroment:
+        - MYSQL_ALLOW_EMPTY_PASSWORD = 'yes'
