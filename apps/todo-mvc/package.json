@@ -1,0 +1,10 @@
+{
+  "name": "todo-mvc",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node node_modules/http-server/bin/http-server"
+  },
+  "dependencies": {
+    "http-server": "0.9.0"
+  }
+}
