@@ -1,0 +1,6 @@
+version: '2'
+services:
+    http-service:
+      image: node:6.3
+    mysql:
+      image: mysql:5.7
